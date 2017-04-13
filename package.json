@@ -1,0 +1,42 @@
+{
+  "name": "@jameswomack/dir",
+  "version": "1.0.0",
+  "description": "The Node.js console.dir with options turned up to 11 & multi-arg support",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests/index.js | tap-difflet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameswomack/dir.git"
+  },
+  "keywords": [
+    "console",
+    "dir",
+    "showHidden",
+    "depth",
+    "colors",
+    "node",
+    "console.dir",
+    "utility",
+    "log",
+    "logger",
+    "logging"
+  ],
+  "author": "James J. Womack (@james_womack)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jameswomack/dir/issues"
+  },
+  "homepage": "https://github.com/jameswomack/dir#readme",
+  "dependencies": {
+    "object.assign": "^4.0.4",
+    "object-keys": "^1.0.10"
+  },
+  "devDependencies": {
+    "intercept-stdout": "0.1.2",
+    "tap-difflet": "0.7.0",
+    "tape": "4.1.0",
+    "tape-catch": "1.0.6"
+  }
+}
